@@ -26,6 +26,7 @@ fetch('https://dateapi-app.herokuapp.com/user/all')
     <p>phone Number: <span>${data.phone}</span></p>
     <p>mailing address: <span>${data.address}</span></p>
     <p>grant: <span>${data.grant}</span></p>
+    <p>Credit score: <span>${data.credit_score}</span></p>
   </article>`
 
    })
